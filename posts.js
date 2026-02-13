@@ -8,7 +8,9 @@ const loadPosts = () => {
         });
 };
 
-// {userId: 10, id: 96, title: 'quaerat velit veniam amet cupiditate aut numquam ut sequi', body: 'in non odio excepturi sint eum\nlabore voluptates v…aque rerum\nveniam non exercitationem delectus aut'}
+// {userId: 10, 
+// id: 96, 
+// title: 'quaerat velit veniam amet cupiditate aut numquam ut sequi', body: 'in non odio excepturi sint eum\nlabore voluptates v…aque rerum\nveniam non exercitationem delectus aut'}
 
 const displayPosts = (posts) => {
     //1. get the container and empty the container
@@ -28,4 +30,4 @@ const displayPosts = (posts) => {
 
     })
 };
-loadPosts();
+// loadPosts();

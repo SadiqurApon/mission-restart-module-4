@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        #comments-container{
+            max-width: 1160px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            row-gap: 30px;
+        }
+        .comment-card{
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow:  1px 1px 1px 1px gray;
+            height: 100%;
+            
+        }
+        .comment-card p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="loadComment()">Load comment</button>
+
+    <div id="comments-container">
+        
+    </div>
+
+    <script src="p-json.js"></script>
+</body>
+</html>
